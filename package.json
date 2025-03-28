@@ -1,0 +1,17 @@
+{
+  "name": "taiithu",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "open-port": "sudo pfctl -f /etc/pf.conf && sudo pfctl -e",
+    "oclose-port": "sudo pfctl -d",
+    "dev": "npm run open-port && (trap 'npm run close-port' EXIT; vite --host)",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^6.2.0",
+    "bootstrap": "^5.3.3"
+  }
+}

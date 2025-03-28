@@ -1,0 +1,49 @@
+.mh-25 {
+    max-height: 25vh;
+}
+
+.mh-50 {
+    max-height: 50vh;
+}
+
+.mh-75 {
+    max-height: 75vh;
+}
+
+
+
+@media (min-width: 768px) {
+    .mh-md-25 {
+        max-height: 25vh;
+    }
+}
+
+@media (min-width: 768px) {
+    .mh-md-50 {
+        max-height: 50vh;
+    }
+}
+
+@media (min-width: 768px) {
+    .mh-md-75 {
+        max-height: 75vh;
+    }
+}
+
+@media (min-width: 992px) {
+    .mh-lg-25 {
+        max-height: 25vh;
+    }
+}
+
+@media (min-width: 992px) {
+    .mh-lg-50 {
+        max-height: 50vh;
+    }
+}
+
+@media (min-width: 992px) {
+    .mh-lg-75 {
+        max-height: 75vh;
+    }
+}
